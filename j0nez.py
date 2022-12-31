@@ -15,7 +15,6 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    print("message: " + message.content)
     if client.user in message.mentions:
         # Send a message in response to the mention
         prompt = message.content[len(client.user.mention) + 1:]
