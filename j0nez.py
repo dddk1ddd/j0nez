@@ -18,7 +18,6 @@ async def on_message(message):
     if client.user in message.mentions:
         # Send a message in response to the mention
         prompt = message.content[len(client.user.mention) + 1:]
-        #print("prompt: " + prompt)
         url = "https://api.openai.com/v1/completions"
         headers = {
         "Content-Type": "application/json",
@@ -33,7 +32,7 @@ async def on_message(message):
         response = requests.post(url, headers=headers, json=data)
         output = response.json()['choices'][0]['text']
         await message.channel.send(output)
-        return #print(output)
+        return
 
 
 client.run('TOKEN') #replace TOKEN with your Bot TOKEN
