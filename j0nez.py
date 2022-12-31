@@ -13,8 +13,6 @@ async def on_ready():
     print(client.user.id)
     print('------')
 
-#def chatGPT(text):
-
 @client.event
 async def on_message(message):
     print("message: " + message.content)
