@@ -4,6 +4,9 @@ from discord.ext import commands
 
 # pk's chatgpt discord bot version .01
 # www.phatkid.art
+# THIS VERSION IS LEFT ONLINE ONLY FOR HISTORICAL PURPOSES
+# LOOK UNDER RELEASES FOR UPDATED VERSIONS
+
 client = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
 @client.event
