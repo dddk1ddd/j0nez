@@ -1,15 +1,18 @@
-# j0nez v.01
+# j0nez v.011b
 OpenAI ChatGPT Discord Bot
 www.phatkid.art
 
-Simply add your OpenAI API Key and your Discord Bot Token.
-As of now, the bot responds to mentions. There are no other commands, yet.
-If you modify this code, I would appreciate sharing with me so I can enjoy also!
-This script was made in collaboration with ChatGPT but I had to modify some of
-its outdated code. So this is a Bot that was made (partially) by a Bot.
-I had error detection and debugging but I removed those for simplicity
-and cleanliness. Enjoy!
--PK
+Responds to mentions with normal conversation through ChatGPT.
+Generates AI Images in chat from prompts using DALL-E.
+Morphs images into specified number of iterations.
+Minimalist Help system.
+
+This is a stable beta release.
+
+Edit the .env file with your Discord Bot Token and OpenAI API Key.
+Both can be obtained from their respective developer portals.
+Or, you can add j0nez via this link:
+https://discord.com/api/oauth2/authorize?client_id=1058807251667787827&permissions=534723951680&scope=bot%20applications.commands
 
 From ChatGPT:
 "Phat Kid is an experimental electronic music artist who has a diverse 
