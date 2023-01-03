@@ -9,7 +9,15 @@ Minimalist Help system.
 
 This is a stable beta release.
 
-Edit the .env file with your Discord Bot Token and OpenAI API Key.
+Create a file called '.env' in the folder with j0nez.py.
+The file should only contain these two lines:
+
+TOKEN='YOUR_BOT_TOKEN'
+KEY='YOUR_API_KEY'
+
+Replace YOUR_BOT_TOKEN with your Discord Bot Token.
+Replace YOUR_API_KEY with your OpenAI API Key.
+
 Both can be obtained from their respective developer portals.
 Or, you can add j0nez via this link:
 https://discord.com/api/oauth2/authorize?client_id=1058807251667787827&permissions=534723951680&scope=bot%20applications.commands
