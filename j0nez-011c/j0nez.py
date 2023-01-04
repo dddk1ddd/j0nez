@@ -160,7 +160,7 @@ async def on_message(message):
     # I was mentioned
     if client.user in message.mentions:
         # Send a message in response to the mention
-        prompt = message.content[len(client.user.mention) + 1:]
+        prompt = message.content
         url = "https://api.openai.com/v1/completions"
         headers = {
             "Content-Type": "application/json",
