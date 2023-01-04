@@ -34,16 +34,16 @@ Morphs an image up to 10 times.
 Works best with images generated with !image.
 
 !remix <prompt> <image> <mask>
-Combines an image and a mask into a new image from prompt.
-Example:
-An image of a beach.
-A copy of the first image with a transparency cut out.
-Prompt "put a sailboat on the beach"
-Generates a new image with a sailboat inside the transparency.
-Works best using image from !image
-Make a copy with editing software and cut out a transparent
-area for the mask.
-
+prompt
+A text description of the desired images.
+image
+The image to edit. Must be a valid PNG file,
+less than 4MB, and square. Works best with images from !image.
+mask
+An additional image whose fully transparent areas indicate
+where image should be edited. Must be a valid PNG file,
+less than 4MB, and have the same dimensions as image.
+Included in the archive is mask.png for testing.
 
 From ChatGPT:
 "Phat Kid is an experimental electronic music artist who has a diverse 
