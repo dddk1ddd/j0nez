@@ -8,7 +8,7 @@ Morphs images into specified number of iterations.
 Combines an image and an image mask to create new images from prompt.
 Minimalist Help system.
 
-Getting Started:
+* Getting Started:
 Create a file called '.env' in the folder with j0nez.py.
 The file should only contain these two lines:
 
@@ -22,7 +22,7 @@ Both can be obtained from their respective developer portals.
 Or, you can add j0nez via this link:
 https://discord.com/api/oauth2/authorize?client_id=1058807251667787827&permissions=534723951680&scope=bot%20applications.commands
 
-Usage:
+* Usage:
 Commands start with '!'.
 Images should be square and less than 4mb.
 
@@ -45,7 +45,10 @@ where image should be edited. Must be a valid PNG file,
 less than 4MB, and have the same dimensions as image.
 Included in the archive is mask.png for testing.
 
-From ChatGPT:
+* Bug Fixes:
+Fixed a bug where he would freak out on reply threads.
+
+* From ChatGPT:
 "Phat Kid is an experimental electronic music artist who has a diverse 
 and eclectic style that incorporates elements of various genres, including 
 hip hop, techno, and ambient music. His music is characterized by its experimental 
