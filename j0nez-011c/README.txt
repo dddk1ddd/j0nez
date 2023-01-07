@@ -48,6 +48,12 @@ Included in the archive is mask.png for testing.
 * Bug Fixes:
 Fixed a bug where he would freak out on reply threads.
 
+* Dependencies:
+pip install discord
+pip install openai
+pip install requests
+pip install python-dotenv
+
 * From ChatGPT:
 "Phat Kid is an experimental electronic music artist who has a diverse 
 and eclectic style that incorporates elements of various genres, including 
