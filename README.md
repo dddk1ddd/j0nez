@@ -19,8 +19,6 @@ Replace YOUR_BOT_TOKEN with your Discord Bot Token.
 Replace YOUR_API_KEY with your OpenAI API Key.
 
 Both can be obtained from their respective developer portals.
-Or, you can add j0nez via this link:
-https://discord.com/api/oauth2/authorize?client_id=1058807251667787827&permissions=534723951680&scope=bot%20applications.commands
 
 Usage:
 Commands start with '!'.
