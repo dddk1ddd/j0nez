@@ -15,8 +15,8 @@ http://www.phatkid.art
 Create a file called '.env' in the folder with j0nez.py.
 The file should only contain these two lines:
 
-TOKEN='YOUR_BOT_TOKEN'
-KEY='YOUR_API_KEY'
+* TOKEN='YOUR_BOT_TOKEN'
+* KEY='YOUR_API_KEY'
 
 Replace YOUR_BOT_TOKEN with your Discord Bot Token.
 Replace YOUR_API_KEY with your OpenAI API Key.
@@ -27,15 +27,15 @@ Both can be obtained from their respective developer portals.
  Commands start with '!'.
  Images should be square and less than 4mb.
 
-!image [description]
+* !image [description]
  Generates a 512x512 image from a prompt.
 
-!morph [number]
+* !morph [number]
  Morphs an image up to 10 times.
  Works best with images generated with !image.
 
-!remix [prompt] [image] [mask]
- prompt
+* !remix [prompt] [image] [mask]
+ [prompt]
  A text description of the desired images.
  [image]
  The image to edit. Must be a valid PNG file,
@@ -46,7 +46,7 @@ Both can be obtained from their respective developer portals.
  less than 4MB, and have the same dimensions as image.
  Included in the archive is mask.png for testing.
 
-!matrix [detail] [png]
+* !matrix [detail] [png]
 Generate an ASCII image from a PNG.
 Detail [26-100] (High-Low)
 
