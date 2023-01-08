@@ -2,13 +2,13 @@
 OpenAI ChatGPT Discord Bot
 http://www.phatkid.art
 
-Responds to mentions with normal conversation through ChatGPT.
+* Responds to mentions with normal conversation through ChatGPT.
 * Remembers replies for basic short term memory.
-Generates AI Images in chat from prompts using DALL-E.
-Morphs images into specified number of iterations.
-Combines an image and an image mask to create new images from prompt.
+* Generates AI Images in chat from prompts using DALL-E.
+* Morphs images into specified number of iterations.
+* Combines an image and an image mask to create new images from prompt.
 * Generates ASCII art from PNG files.
-Minimalist Help system.
+* Minimalist Help system.
 * Color-coded console log.
 
 # Getting Started:
