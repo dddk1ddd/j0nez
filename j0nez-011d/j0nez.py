@@ -249,14 +249,12 @@ async def on_message(message):
             if reply.author == client.user:
                 prompt = ("You said " + repr(reply_content) +
                           ", and I said: " +
-                          repr(message.content) +
-                          " What do you think?")
+                          repr(message.content))
             else:
                 prompt = (str(reply.author) + " said " +
                           repr(reply_content) +
                           ", and I said: " +
-                          repr(message.content) +
-                          " What do you think?")
+                          repr(message.content))
             if reply_content == "":
                 prompt = str(message.content)
         else:
